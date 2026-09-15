@@ -61,8 +61,4 @@ This carrier board consolidates discrete motor controllers into an integrated, s
 ---
 
 ### Fabrication & Assembly Notes (15 oz Copper)
-
 * **Etch Clearance:** Minimum trace clearance and spacing set to $\ge 1.2\text{ mm}$ ($50\text{ mil}$) to prevent shorts from chemical undercut during $525\ \mu\text{m}$ copper etching.
-* **Soldering & Thermal Mass:** Pre-heating the board on a hot plate ($\approx 120^\circ\text{C} - 150^\circ\text{C}$) is required before hand-soldering pin headers or high-current leads.
-* **Solder Mask:** Requires heavy-duty multi-pass coating to adequately bridge the high copper step height.
-* **Design Files:** Native KiCad project files (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`) are located in the `/pcb` directory.
